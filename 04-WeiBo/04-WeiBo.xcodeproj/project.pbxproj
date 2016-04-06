@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC88CEF81CB4F13900134487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88CEF71CB4F13900134487 /* main.m */; };
+		CC88CEFB1CB4F13900134487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88CEFA1CB4F13900134487 /* AppDelegate.m */; };
+		CC88CEFE1CB4F13900134487 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88CEFD1CB4F13900134487 /* ViewController.m */; };
+		CC88CF011CB4F13900134487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC88CEFF1CB4F13900134487 /* Main.storyboard */; };
+		CC88CF041CB4F13900134487 /* _4_WeiBo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC88CF021CB4F13900134487 /* _4_WeiBo.xcdatamodeld */; };
+		CC88CF061CB4F13900134487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF051CB4F13900134487 /* Assets.xcassets */; };
+		CC88CF091CB4F13900134487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF071CB4F13900134487 /* LaunchScreen.storyboard */; };
+		CC88CF141CB4F13900134487 /* _4_WeiBoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88CF131CB4F13900134487 /* _4_WeiBoTests.m */; };
+		CC88CF1F1CB4F13900134487 /* _4_WeiBoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88CF1E1CB4F13900134487 /* _4_WeiBoUITests.m */; };
+		CC88CF2E1CB4F16A00134487 /* QYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC88CF2D1CB4F16A00134487 /* QYTabBarController.m */; };
+		CC88CF481CB4F28D00134487 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF301CB4F28D00134487 /* Default-568h@2x.png */; };
+		CC88CF491CB4F28D00134487 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF311CB4F28D00134487 /* Default-667h@2x.png */; };
+		CC88CF4A1CB4F28D00134487 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF321CB4F28D00134487 /* Default-736h@3x.png */; };
+		CC88CF4B1CB4F28D00134487 /* Default-736h_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF331CB4F28D00134487 /* Default-736h_right@3x.png */; };
+		CC88CF4C1CB4F28D00134487 /* icon_base@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF341CB4F28D00134487 /* icon_base@2x.png */; };
+		CC88CF4D1CB4F28D00134487 /* icon_base@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF351CB4F28D00134487 /* icon_base@3x.png */; };
+		CC88CF4E1CB4F28D00134487 /* tabbar_compose_icon_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF361CB4F28D00134487 /* tabbar_compose_icon_add@2x.png */; };
+		CC88CF4F1CB4F28D00134487 /* tabbar_compose_icon_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF371CB4F28D00134487 /* tabbar_compose_icon_add@3x.png */; };
+		CC88CF501CB4F28D00134487 /* tabbar_discover.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF381CB4F28D00134487 /* tabbar_discover.png */; };
+		CC88CF511CB4F28D00134487 /* tabbar_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF391CB4F28D00134487 /* tabbar_discover@2x.png */; };
+		CC88CF521CB4F28D00134487 /* tabbar_discover_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF3A1CB4F28D00134487 /* tabbar_discover_selected.png */; };
+		CC88CF531CB4F28D00134487 /* tabbar_discover_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF3B1CB4F28D00134487 /* tabbar_discover_selected@2x.png */; };
+		CC88CF541CB4F28D00134487 /* tabbar_home.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF3C1CB4F28D00134487 /* tabbar_home.png */; };
+		CC88CF551CB4F28D00134487 /* tabbar_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF3D1CB4F28D00134487 /* tabbar_home@2x.png */; };
+		CC88CF561CB4F28D00134487 /* tabbar_home_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF3E1CB4F28D00134487 /* tabbar_home_selected.png */; };
+		CC88CF571CB4F28D00134487 /* tabbar_home_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF3F1CB4F28D00134487 /* tabbar_home_selected@2x.png */; };
+		CC88CF581CB4F28D00134487 /* tabbar_message_center.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF401CB4F28D00134487 /* tabbar_message_center.png */; };
+		CC88CF591CB4F28D00134487 /* tabbar_message_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF411CB4F28D00134487 /* tabbar_message_center@2x.png */; };
+		CC88CF5A1CB4F28D00134487 /* tabbar_message_center_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF421CB4F28D00134487 /* tabbar_message_center_highlighted.png */; };
+		CC88CF5B1CB4F28D00134487 /* tabbar_message_center_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF431CB4F28D00134487 /* tabbar_message_center_selected@2x.png */; };
+		CC88CF5C1CB4F28D00134487 /* tabbar_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF441CB4F28D00134487 /* tabbar_profile.png */; };
+		CC88CF5D1CB4F28D00134487 /* tabbar_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF451CB4F28D00134487 /* tabbar_profile@2x.png */; };
+		CC88CF5E1CB4F28D00134487 /* tabbar_profile_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF461CB4F28D00134487 /* tabbar_profile_selected.png */; };
+		CC88CF5F1CB4F28D00134487 /* tabbar_profile_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF471CB4F28D00134487 /* tabbar_profile_selected@2x.png */; };
+		CC88CF611CB4FF1C00134487 /* temp.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC88CF601CB4FF1C00134487 /* temp.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC88CF101CB4F13900134487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC88CEEB1CB4F13900134487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC88CEF21CB4F13900134487;
+			remoteInfo = "04-WeiBo";
+		};
+		CC88CF1B1CB4F13900134487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC88CEEB1CB4F13900134487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC88CEF21CB4F13900134487;
+			remoteInfo = "04-WeiBo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC88CEF31CB4F13900134487 /* 04-WeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-WeiBo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC88CEF71CB4F13900134487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC88CEF91CB4F13900134487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC88CEFA1CB4F13900134487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC88CEFC1CB4F13900134487 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC88CEFD1CB4F13900134487 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC88CF001CB4F13900134487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC88CF031CB4F13900134487 /* _4_WeiBo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _4_WeiBo.xcdatamodel; sourceTree = "<group>"; };
+		CC88CF051CB4F13900134487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC88CF081CB4F13900134487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC88CF0A1CB4F13900134487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC88CF0F1CB4F13900134487 /* 04-WeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-WeiBoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC88CF131CB4F13900134487 /* _4_WeiBoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_WeiBoTests.m; sourceTree = "<group>"; };
+		CC88CF151CB4F13900134487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC88CF1A1CB4F13900134487 /* 04-WeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-WeiBoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC88CF1E1CB4F13900134487 /* _4_WeiBoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _4_WeiBoUITests.m; sourceTree = "<group>"; };
+		CC88CF201CB4F13900134487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC88CF2C1CB4F16A00134487 /* QYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTabBarController.h; sourceTree = "<group>"; };
+		CC88CF2D1CB4F16A00134487 /* QYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTabBarController.m; sourceTree = "<group>"; };
+		CC88CF301CB4F28D00134487 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CC88CF311CB4F28D00134487 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		CC88CF321CB4F28D00134487 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		CC88CF331CB4F28D00134487 /* Default-736h_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h_right@3x.png"; sourceTree = "<group>"; };
+		CC88CF341CB4F28D00134487 /* icon_base@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_base@2x.png"; sourceTree = "<group>"; };
+		CC88CF351CB4F28D00134487 /* icon_base@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_base@3x.png"; sourceTree = "<group>"; };
+		CC88CF361CB4F28D00134487 /* tabbar_compose_icon_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_icon_add@2x.png"; sourceTree = "<group>"; };
+		CC88CF371CB4F28D00134487 /* tabbar_compose_icon_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_icon_add@3x.png"; sourceTree = "<group>"; };
+		CC88CF381CB4F28D00134487 /* tabbar_discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_discover.png; sourceTree = "<group>"; };
+		CC88CF391CB4F28D00134487 /* tabbar_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover@2x.png"; sourceTree = "<group>"; };
+		CC88CF3A1CB4F28D00134487 /* tabbar_discover_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_discover_selected.png; sourceTree = "<group>"; };
+		CC88CF3B1CB4F28D00134487 /* tabbar_discover_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_discover_selected@2x.png"; sourceTree = "<group>"; };
+		CC88CF3C1CB4F28D00134487 /* tabbar_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_home.png; sourceTree = "<group>"; };
+		CC88CF3D1CB4F28D00134487 /* tabbar_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home@2x.png"; sourceTree = "<group>"; };
+		CC88CF3E1CB4F28D00134487 /* tabbar_home_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_home_selected.png; sourceTree = "<group>"; };
+		CC88CF3F1CB4F28D00134487 /* tabbar_home_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_home_selected@2x.png"; sourceTree = "<group>"; };
+		CC88CF401CB4F28D00134487 /* tabbar_message_center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_message_center.png; sourceTree = "<group>"; };
+		CC88CF411CB4F28D00134487 /* tabbar_message_center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center@2x.png"; sourceTree = "<group>"; };
+		CC88CF421CB4F28D00134487 /* tabbar_message_center_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_message_center_highlighted.png; sourceTree = "<group>"; };
+		CC88CF431CB4F28D00134487 /* tabbar_message_center_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_message_center_selected@2x.png"; sourceTree = "<group>"; };
+		CC88CF441CB4F28D00134487 /* tabbar_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_profile.png; sourceTree = "<group>"; };
+		CC88CF451CB4F28D00134487 /* tabbar_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile@2x.png"; sourceTree = "<group>"; };
+		CC88CF461CB4F28D00134487 /* tabbar_profile_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar_profile_selected.png; sourceTree = "<group>"; };
+		CC88CF471CB4F28D00134487 /* tabbar_profile_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_profile_selected@2x.png"; sourceTree = "<group>"; };
+		CC88CF601CB4FF1C00134487 /* temp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = temp.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC88CEF01CB4F13900134487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88CF0C1CB4F13900134487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88CF171CB4F13900134487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC88CEEA1CB4F13900134487 = {
+			isa = PBXGroup;
+			children = (
+				CC88CEF51CB4F13900134487 /* 04-WeiBo */,
+				CC88CF121CB4F13900134487 /* 04-WeiBoTests */,
+				CC88CF1D1CB4F13900134487 /* 04-WeiBoUITests */,
+				CC88CEF41CB4F13900134487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC88CEF41CB4F13900134487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC88CEF31CB4F13900134487 /* 04-WeiBo.app */,
+				CC88CF0F1CB4F13900134487 /* 04-WeiBoTests.xctest */,
+				CC88CF1A1CB4F13900134487 /* 04-WeiBoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC88CEF51CB4F13900134487 /* 04-WeiBo */ = {
+			isa = PBXGroup;
+			children = (
+				CC88CEF91CB4F13900134487 /* AppDelegate.h */,
+				CC88CEFA1CB4F13900134487 /* AppDelegate.m */,
+				CC88CEFC1CB4F13900134487 /* ViewController.h */,
+				CC88CEFD1CB4F13900134487 /* ViewController.m */,
+				CC88CF2C1CB4F16A00134487 /* QYTabBarController.h */,
+				CC88CF2D1CB4F16A00134487 /* QYTabBarController.m */,
+				CC88CEFF1CB4F13900134487 /* Main.storyboard */,
+				CC88CF051CB4F13900134487 /* Assets.xcassets */,
+				CC88CF071CB4F13900134487 /* LaunchScreen.storyboard */,
+				CC88CF0A1CB4F13900134487 /* Info.plist */,
+				CC88CF021CB4F13900134487 /* _4_WeiBo.xcdatamodeld */,
+				CC88CEF61CB4F13900134487 /* Supporting Files */,
+			);
+			path = "04-WeiBo";
+			sourceTree = "<group>";
+		};
+		CC88CEF61CB4F13900134487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC88CF601CB4FF1C00134487 /* temp.plist */,
+				CC88CF2F1CB4F28D00134487 /* weibotabbar */,
+				CC88CEF71CB4F13900134487 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC88CF121CB4F13900134487 /* 04-WeiBoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC88CF131CB4F13900134487 /* _4_WeiBoTests.m */,
+				CC88CF151CB4F13900134487 /* Info.plist */,
+			);
+			path = "04-WeiBoTests";
+			sourceTree = "<group>";
+		};
+		CC88CF1D1CB4F13900134487 /* 04-WeiBoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC88CF1E1CB4F13900134487 /* _4_WeiBoUITests.m */,
+				CC88CF201CB4F13900134487 /* Info.plist */,
+			);
+			path = "04-WeiBoUITests";
+			sourceTree = "<group>";
+		};
+		CC88CF2F1CB4F28D00134487 /* weibotabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CC88CF301CB4F28D00134487 /* Default-568h@2x.png */,
+				CC88CF311CB4F28D00134487 /* Default-667h@2x.png */,
+				CC88CF321CB4F28D00134487 /* Default-736h@3x.png */,
+				CC88CF331CB4F28D00134487 /* Default-736h_right@3x.png */,
+				CC88CF341CB4F28D00134487 /* icon_base@2x.png */,
+				CC88CF351CB4F28D00134487 /* icon_base@3x.png */,
+				CC88CF361CB4F28D00134487 /* tabbar_compose_icon_add@2x.png */,
+				CC88CF371CB4F28D00134487 /* tabbar_compose_icon_add@3x.png */,
+				CC88CF381CB4F28D00134487 /* tabbar_discover.png */,
+				CC88CF391CB4F28D00134487 /* tabbar_discover@2x.png */,
+				CC88CF3A1CB4F28D00134487 /* tabbar_discover_selected.png */,
+				CC88CF3B1CB4F28D00134487 /* tabbar_discover_selected@2x.png */,
+				CC88CF3C1CB4F28D00134487 /* tabbar_home.png */,
+				CC88CF3D1CB4F28D00134487 /* tabbar_home@2x.png */,
+				CC88CF3E1CB4F28D00134487 /* tabbar_home_selected.png */,
+				CC88CF3F1CB4F28D00134487 /* tabbar_home_selected@2x.png */,
+				CC88CF401CB4F28D00134487 /* tabbar_message_center.png */,
+				CC88CF411CB4F28D00134487 /* tabbar_message_center@2x.png */,
+				CC88CF421CB4F28D00134487 /* tabbar_message_center_highlighted.png */,
+				CC88CF431CB4F28D00134487 /* tabbar_message_center_selected@2x.png */,
+				CC88CF441CB4F28D00134487 /* tabbar_profile.png */,
+				CC88CF451CB4F28D00134487 /* tabbar_profile@2x.png */,
+				CC88CF461CB4F28D00134487 /* tabbar_profile_selected.png */,
+				CC88CF471CB4F28D00134487 /* tabbar_profile_selected@2x.png */,
+			);
+			path = weibotabbar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC88CEF21CB4F13900134487 /* 04-WeiBo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC88CF231CB4F13900134487 /* Build configuration list for PBXNativeTarget "04-WeiBo" */;
+			buildPhases = (
+				CC88CEEF1CB4F13900134487 /* Sources */,
+				CC88CEF01CB4F13900134487 /* Frameworks */,
+				CC88CEF11CB4F13900134487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-WeiBo";
+			productName = "04-WeiBo";
+			productReference = CC88CEF31CB4F13900134487 /* 04-WeiBo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC88CF0E1CB4F13900134487 /* 04-WeiBoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC88CF261CB4F13900134487 /* Build configuration list for PBXNativeTarget "04-WeiBoTests" */;
+			buildPhases = (
+				CC88CF0B1CB4F13900134487 /* Sources */,
+				CC88CF0C1CB4F13900134487 /* Frameworks */,
+				CC88CF0D1CB4F13900134487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC88CF111CB4F13900134487 /* PBXTargetDependency */,
+			);
+			name = "04-WeiBoTests";
+			productName = "04-WeiBoTests";
+			productReference = CC88CF0F1CB4F13900134487 /* 04-WeiBoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC88CF191CB4F13900134487 /* 04-WeiBoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC88CF291CB4F13900134487 /* Build configuration list for PBXNativeTarget "04-WeiBoUITests" */;
+			buildPhases = (
+				CC88CF161CB4F13900134487 /* Sources */,
+				CC88CF171CB4F13900134487 /* Frameworks */,
+				CC88CF181CB4F13900134487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC88CF1C1CB4F13900134487 /* PBXTargetDependency */,
+			);
+			name = "04-WeiBoUITests";
+			productName = "04-WeiBoUITests";
+			productReference = CC88CF1A1CB4F13900134487 /* 04-WeiBoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC88CEEB1CB4F13900134487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "河南青云信息技术有限公司";
+				TargetAttributes = {
+					CC88CEF21CB4F13900134487 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CC88CF0E1CB4F13900134487 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CC88CEF21CB4F13900134487;
+					};
+					CC88CF191CB4F13900134487 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CC88CEF21CB4F13900134487;
+					};
+				};
+			};
+			buildConfigurationList = CC88CEEE1CB4F13900134487 /* Build configuration list for PBXProject "04-WeiBo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC88CEEA1CB4F13900134487;
+			productRefGroup = CC88CEF41CB4F13900134487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC88CEF21CB4F13900134487 /* 04-WeiBo */,
+				CC88CF0E1CB4F13900134487 /* 04-WeiBoTests */,
+				CC88CF191CB4F13900134487 /* 04-WeiBoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC88CEF11CB4F13900134487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC88CF501CB4F28D00134487 /* tabbar_discover.png in Resources */,
+				CC88CF4F1CB4F28D00134487 /* tabbar_compose_icon_add@3x.png in Resources */,
+				CC88CF4C1CB4F28D00134487 /* icon_base@2x.png in Resources */,
+				CC88CF531CB4F28D00134487 /* tabbar_discover_selected@2x.png in Resources */,
+				CC88CF4B1CB4F28D00134487 /* Default-736h_right@3x.png in Resources */,
+				CC88CF4E1CB4F28D00134487 /* tabbar_compose_icon_add@2x.png in Resources */,
+				CC88CF5E1CB4F28D00134487 /* tabbar_profile_selected.png in Resources */,
+				CC88CF591CB4F28D00134487 /* tabbar_message_center@2x.png in Resources */,
+				CC88CF5D1CB4F28D00134487 /* tabbar_profile@2x.png in Resources */,
+				CC88CF541CB4F28D00134487 /* tabbar_home.png in Resources */,
+				CC88CF571CB4F28D00134487 /* tabbar_home_selected@2x.png in Resources */,
+				CC88CF5C1CB4F28D00134487 /* tabbar_profile.png in Resources */,
+				CC88CF5B1CB4F28D00134487 /* tabbar_message_center_selected@2x.png in Resources */,
+				CC88CF581CB4F28D00134487 /* tabbar_message_center.png in Resources */,
+				CC88CF4D1CB4F28D00134487 /* icon_base@3x.png in Resources */,
+				CC88CF551CB4F28D00134487 /* tabbar_home@2x.png in Resources */,
+				CC88CF561CB4F28D00134487 /* tabbar_home_selected.png in Resources */,
+				CC88CF091CB4F13900134487 /* LaunchScreen.storyboard in Resources */,
+				CC88CF5F1CB4F28D00134487 /* tabbar_profile_selected@2x.png in Resources */,
+				CC88CF481CB4F28D00134487 /* Default-568h@2x.png in Resources */,
+				CC88CF511CB4F28D00134487 /* tabbar_discover@2x.png in Resources */,
+				CC88CF061CB4F13900134487 /* Assets.xcassets in Resources */,
+				CC88CF011CB4F13900134487 /* Main.storyboard in Resources */,
+				CC88CF5A1CB4F28D00134487 /* tabbar_message_center_highlighted.png in Resources */,
+				CC88CF521CB4F28D00134487 /* tabbar_discover_selected.png in Resources */,
+				CC88CF491CB4F28D00134487 /* Default-667h@2x.png in Resources */,
+				CC88CF611CB4FF1C00134487 /* temp.plist in Resources */,
+				CC88CF4A1CB4F28D00134487 /* Default-736h@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88CF0D1CB4F13900134487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88CF181CB4F13900134487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC88CEEF1CB4F13900134487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC88CF2E1CB4F16A00134487 /* QYTabBarController.m in Sources */,
+				CC88CEFE1CB4F13900134487 /* ViewController.m in Sources */,
+				CC88CF041CB4F13900134487 /* _4_WeiBo.xcdatamodeld in Sources */,
+				CC88CEFB1CB4F13900134487 /* AppDelegate.m in Sources */,
+				CC88CEF81CB4F13900134487 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88CF0B1CB4F13900134487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC88CF141CB4F13900134487 /* _4_WeiBoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC88CF161CB4F13900134487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC88CF1F1CB4F13900134487 /* _4_WeiBoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC88CF111CB4F13900134487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC88CEF21CB4F13900134487 /* 04-WeiBo */;
+			targetProxy = CC88CF101CB4F13900134487 /* PBXContainerItemProxy */;
+		};
+		CC88CF1C1CB4F13900134487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC88CEF21CB4F13900134487 /* 04-WeiBo */;
+			targetProxy = CC88CF1B1CB4F13900134487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC88CEFF1CB4F13900134487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC88CF001CB4F13900134487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC88CF071CB4F13900134487 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC88CF081CB4F13900134487 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC88CF211CB4F13900134487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC88CF221CB4F13900134487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC88CF241CB4F13900134487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-WeiBo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC88CF251CB4F13900134487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-WeiBo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC88CF271CB4F13900134487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04-WeiBoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-WeiBo.app/04-WeiBo";
+			};
+			name = Debug;
+		};
+		CC88CF281CB4F13900134487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "04-WeiBoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-WeiBo.app/04-WeiBo";
+			};
+			name = Release;
+		};
+		CC88CF2A1CB4F13900134487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04-WeiBoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04-WeiBo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC88CF2B1CB4F13900134487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "04-WeiBoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "04-WeiBo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC88CEEE1CB4F13900134487 /* Build configuration list for PBXProject "04-WeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC88CF211CB4F13900134487 /* Debug */,
+				CC88CF221CB4F13900134487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC88CF231CB4F13900134487 /* Build configuration list for PBXNativeTarget "04-WeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC88CF241CB4F13900134487 /* Debug */,
+				CC88CF251CB4F13900134487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC88CF261CB4F13900134487 /* Build configuration list for PBXNativeTarget "04-WeiBoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC88CF271CB4F13900134487 /* Debug */,
+				CC88CF281CB4F13900134487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC88CF291CB4F13900134487 /* Build configuration list for PBXNativeTarget "04-WeiBoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC88CF2A1CB4F13900134487 /* Debug */,
+				CC88CF2B1CB4F13900134487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC88CF021CB4F13900134487 /* _4_WeiBo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC88CF031CB4F13900134487 /* _4_WeiBo.xcdatamodel */,
+			);
+			currentVersion = CC88CF031CB4F13900134487 /* _4_WeiBo.xcdatamodel */;
+			path = _4_WeiBo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC88CEEB1CB4F13900134487 /* Project object */;
+}
