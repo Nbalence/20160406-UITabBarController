@@ -530,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "04-WeiBo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,6 +542,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "04-WeiBo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -552,6 +554,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "04-WeiBoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -564,6 +567,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "04-WeiBoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -575,6 +579,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "04-WeiBoUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -587,6 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "04-WeiBoUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hnqingyun.-4-WeiBoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -614,6 +620,7 @@
 				CC88CF251CB4F13900134487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC88CF261CB4F13900134487 /* Build configuration list for PBXNativeTarget "04-WeiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -622,6 +629,7 @@
 				CC88CF281CB4F13900134487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC88CF291CB4F13900134487 /* Build configuration list for PBXNativeTarget "04-WeiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -630,6 +638,7 @@
 				CC88CF2B1CB4F13900134487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -22,7 +22,7 @@
     //设置平级的视图控制器
     //[self setViewControllers];
     //自定义tabBar
-    [self setCustomTabBar];
+    //[self setCustomTabBar];
     // Do any additional setup after loading the view.
 }
 
